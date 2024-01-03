@@ -1,4 +1,4 @@
-Solar Panel Image Analysis Toolkit
+Solar Panel Image Segmentation
 
 
 Overview
