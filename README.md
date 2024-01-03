@@ -24,7 +24,7 @@ Each script has its own requirements.txt file that lists the required libraries.
 
 Clone the repository:
 
-git clone git@github.com:baharaks/SAM_transfer_learning.git
+git clone https://github.com/baharaks/SAM_transfer_learning.git
 
 cd SAM_transfer_learning
 
