@@ -137,7 +137,7 @@ save_dir = 'data_jpg/result_roboflow'
 final_dir = 'data_jpg/result_final'
 
 data =[]
-data.append(['file name', 'bounding box'])
+data.append(['file name', 'ground id', 'bounding box'])
 for i, file in enumerate(os.listdir(image_dir)):
     # infer on a local image
     image_path = os.path.join(image_dir, file)
@@ -181,7 +181,10 @@ for i, file in enumerate(os.listdir(image_dir)):
         # plt.figure()
         # plt.imshow(mask_largest)
         # Specify the name of the CSV file
-        data.append([file, bbox])
+        ground_id = 0
+        if bbox:
+           ground_id = 1 
+        data.append([file, ground_id, bbox])
         
         
         save_path = os.path.join(final_dir, file.split('.')[0] + '_final.jpg')
