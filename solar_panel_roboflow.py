@@ -126,7 +126,7 @@ sam.to(device=device)
 
 predictor = SamPredictor(sam)
 
-rf = Roboflow(api_key="RPl8XdMUDmesij7OaYNe")
+rf = Roboflow(api_key=<use your api_key>)
 
 project = rf.workspace().project("aerial-solar-panels")
 model = project.version(6).model
