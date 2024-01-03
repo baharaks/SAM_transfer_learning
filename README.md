@@ -32,6 +32,8 @@ Install the dependencies for each script:
 
 pip install -r requirements.txt
 
+To get your API_KEY from Roboflow platform follow this link: https://docs.roboflow.com/api-reference/authentication
+
 Usage
 
 Each script can be run independently based on the specific task at hand.
