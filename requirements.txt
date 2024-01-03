@@ -1,0 +1,5 @@
+opencv-python
+matplotlib
+numpy
+roboflow
+segment_anything
