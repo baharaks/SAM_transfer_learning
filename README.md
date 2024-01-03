@@ -36,6 +36,11 @@ Usage
 
 Each script can be run independently based on the specific task at hand.
 
+How to use the codes:
+1. Run sam_transfer_learning.py for transfer learning on SAM model
+2. Run sam_segment.py to test SAM model. Download the fine tuned model from https://drive.google.com/file/d/1UgthKtmwuLhktC40LNUWIU_w7W8evkUA/view?usp=sharing 
+4. Run solar_panel_roboflow.py for combination of roboflow model and SAM
+
 License
 [Specify your license here]
 
